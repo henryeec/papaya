@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2016-05-24 Answer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="2016-05-24.css">
+    <script src="2016-05-24.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>2016-05-24 Answer</h1>
+        <h2>Q1 個人資料表</h2>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>生日</th>
+                    <th>電話</th>
+                    <th>身高</th>
+                    <th>數學分數</th>
+                </tr>
+            </thead>
+            <tbody id="personBody">
+            </tbody>
+        </table>
+        <button id="heightDESCBtn">身高由大到小</button>
+        <button id="birthdayASCBtn">生日由小到大</button>
+        <button id="mathgradesASCBtn">數學分數由小到大</button>
+        <h2>Q2 大樂透</h2>
+        <div class="row">
+            <label for="lotto649Num">產生樂透數量</label>
+            <input id="lotto649Num" type="number" class="u-full-width" min="1" max="10">
+        </div>
+        <ol id="lotto649Ol">
+        </ol>
+        <button id="lotto649Btn">產生開獎號碼並兌獎</button>
+        <label>開獎號碼：</label><ul id="lotto649WinNumber" class="lotto649">
+        </ul>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
